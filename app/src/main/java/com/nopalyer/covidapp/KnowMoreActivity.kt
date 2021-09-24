@@ -1,4 +1,4 @@
-package com.example.covidapp
+package com.nopalyer.covidapp
 
 import android.content.Intent
 import android.net.Uri

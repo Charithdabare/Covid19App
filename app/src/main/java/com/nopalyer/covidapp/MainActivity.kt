@@ -1,4 +1,4 @@
-package com.example.covidapp
+package com.nopalyer.covidapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         precautionsList.add(Model(R.drawable.soap,"Hand Wash","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
         precautionsList.add(Model(R.drawable.hone,"Stay Home","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
         precautionsList.add(Model(R.drawable.distance,"Social Distance","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
-
+     
         val precautionsAdapter = PrecautionsAdapter(precautionsList)
 
         recyclerViewPrecautions.adapter = precautionsAdapter
@@ -89,5 +89,3 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-
-

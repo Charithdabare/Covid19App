@@ -1,4 +1,4 @@
-package com.example.covidapp
+package com.nopalyer.covidapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
