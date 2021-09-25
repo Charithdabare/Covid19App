@@ -4,17 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#5CE98CFD"
+    android:backgroundTint="#5CE98CFD"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".SymptomsActivity">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:gravity="center"
-        android:fontFamily="@font/gilroy_bold"
-        android:text="Precautions"
         android:layout_above="@id/recyclerView"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/gilroy_bold"
+        android:gravity="center"
+        android:text="Precautions"
         android:textColor="@color/colorDarkGray"
         android:textSize="20sp" />
 

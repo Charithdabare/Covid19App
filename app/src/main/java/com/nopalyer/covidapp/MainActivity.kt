@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView.layoutManager = LinearLayoutManager(this,LinearLayout.HORIZONTAL,false)
         val symptomsList = ArrayList<Model>()
-        symptomsList.add(Model(R.drawable.cough,"Dry Cough","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
-        symptomsList.add(Model(R.drawable.fever,"Fever","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
-        symptomsList.add(Model(R.drawable.pain,"Head Ache","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
+        symptomsList.add(Model(R.drawable.cough,"Dry Cough","This cough has a consistent tone because it is free from the sound of mucus.it is caused by irritation and inflammation of the airway."))
+        symptomsList.add(Model(R.drawable.fever,"Fever","If there is persistent fever, covid 19 may form."))
+        symptomsList.add(Model(R.drawable.pain,"Head Ache","A headache is early and late in the infection phase, with a later headache possibly being associated with covid 19."))
 
         val symptomsAdapter = SymptomsAdapter(symptomsList)
 
@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity() {
 
         recyclerViewPrecautions.layoutManager = LinearLayoutManager(this,LinearLayout.HORIZONTAL,false)
         val precautionsList = ArrayList<Model>()
-        precautionsList.add(Model(R.drawable.soap,"Hand Wash","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
-        precautionsList.add(Model(R.drawable.hone,"Stay Home","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
-        precautionsList.add(Model(R.drawable.distance,"Social Distance","Lorem Ipsum is simply dummy text of the printing and typesetting industry."))
+        precautionsList.add(Model(R.drawable.soap,"Hand Wash","Please Remember To Wash Your Hands For 20 Seconds With Soap and Water."))
+        precautionsList.add(Model(R.drawable.hone,"Stay Home","Stay Home Stay Safe & Save Lives."))
+        precautionsList.add(Model(R.drawable.distance,"Social Distance","Stay At Least 2 Metres (6feet) Away From Other People."))
      
         val precautionsAdapter = PrecautionsAdapter(precautionsList)
 
