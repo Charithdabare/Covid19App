@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
-    android:backgroundTint="#5CE98CFD"
+    android:backgroundTint="@color/colorLightBlue"
     android:gravity="center"
     tools:context=".KnowMoreActivity">
 

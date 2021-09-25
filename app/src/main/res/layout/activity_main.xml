@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorLightBlue"
+    android:backgroundTint="@color/colorLightBlue">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,7 +22,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#5CE98CFD"
+            android:background="@color/colorLightBlue"
+            android:backgroundTint="@color/colorLightBlue"
             android:orientation="vertical">
 
             <TextView
@@ -173,7 +176,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#5CE98CFD"
+                android:background="@color/colorLightBlue"
                 android:orientation="horizontal">
 
                 <TextView
@@ -181,7 +184,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:backgroundTint="#5CE98CFD"
+                    android:background="@color/colorLightBlue"
+                    android:backgroundTint="@color/colorLightBlue"
                     android:fontFamily="@font/gilroy_bold"
                     android:text="Symptoms"
                     android:textColor="@color/colorDarkGray"
@@ -203,7 +207,8 @@
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#5CE98CFD"
+                android:background="@color/colorLightBlue"
+                android:backgroundTint="@color/colorLightBlue"
                 android:orientation="horizontal"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:itemCount="3"
@@ -364,7 +369,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:fontFamily="@font/gilroy_bold"
-                            android:text="Map"
+                            android:text="Covid Map"
                             android:textColor="@color/colorWhite"
                             android:textSize="20sp" />
 
@@ -400,7 +405,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#5CE98CFD"
+                android:background="@color/colorLightBlue"
                 android:orientation="horizontal">
 
                 <TextView
@@ -408,7 +413,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
-                    android:backgroundTint="#5CE98CFD"
+                    android:background="@color/colorLightBlue"
+                    android:backgroundTint="@color/colorLightBlue"
                     android:fontFamily="@font/gilroy_bold"
                     android:text="Precautions"
                     android:textColor="@color/colorDarkGray"
@@ -419,7 +425,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="15dp"
-                    android:backgroundTint="#5CE98CFD"
+                    android:backgroundTint="@color/colorLightBlue"
                     android:fontFamily="@font/gilroy_light"
                     android:text="view all"
                     android:textColor="@color/colorBlack"
@@ -431,14 +437,13 @@
                 android:id="@+id/recyclerViewPrecautions"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#5CE98CFD"
+                android:background="@color/colorLightBlue"
                 android:orientation="horizontal"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 tools:itemCount="6"
                 tools:listitem="@layout/item_precautions" />
 
         </LinearLayout>
-
 
 
     </RelativeLayout>
