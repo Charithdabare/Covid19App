@@ -1,6 +1,7 @@
 package com.nopalyer.covidapp
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.LinearLayout
@@ -10,6 +11,7 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import kotlinx.android.synthetic.main.activity_know_more.*
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
 
@@ -40,6 +42,22 @@ class MainActivity : AppCompatActivity() {
 
         recyclerViewPrecautions.adapter = precautionsAdapter
 
+        btnnews.setOnClickListener {
+            var intent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse("https://www.gavi.org/news-resources")
+            )
+            startActivity(intent)
+        }
+
+        btnmap.setOnClickListener {
+            var intent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse("https://covid19.who.int/")
+            )
+            startActivity(intent)
+        }
+
         txtViewSymptoms.setOnClickListener {
             var intent = Intent(this@MainActivity,SymptomsActivity::class.java)
             startActivity(intent)
@@ -54,6 +72,8 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this@MainActivity,PrecautionActivity::class.java)
             startActivity(intent)
         }
+
+
 
 
         getGlobalData()
