@@ -21,7 +21,7 @@
             android:layout_height="252dp"
             android:layout_gravity="center"
             android:src="@drawable/splash_screen"
-            tools:srcCompat="@drawable/person_fighting_virus_illustrated_52683_35833_removebg_preview" />
+            tools:srcCompat="@drawable/splash_screen" />
 
         <TextView
             android:layout_width="match_parent"
