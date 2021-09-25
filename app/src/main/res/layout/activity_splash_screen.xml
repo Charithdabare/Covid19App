@@ -4,22 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5CE98CFD"
+    android:background="@color/colorLightBlue"
     tools:context=".SplashScreen">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/contGetStarted"
-        android:backgroundTint="#5CE98CFD"
+        android:background="@color/colorLightBlue"
+        android:backgroundTint="@color/colorLightBlue"
         android:gravity="center"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="243dp"
+            android:layout_height="252dp"
             android:layout_gravity="center"
-            android:src="@drawable/splash_screen" />
+            android:src="@drawable/splash_screen"
+            tools:srcCompat="@drawable/person_fighting_virus_illustrated_52683_35833_removebg_preview" />
 
         <TextView
             android:layout_width="match_parent"
@@ -40,7 +42,7 @@
             android:text="@string/about_covid"
             android:textAlignment="center"
             android:textColor="@color/colorBlack"
-            android:textSize="15sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
 

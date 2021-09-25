@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5CE98CFD"
-    android:backgroundTint="#5CE98CFD"
+    android:background="@color/colorLightBlue"
+    android:backgroundTint="@color/colorLightBlue"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".SymptomsActivity">
